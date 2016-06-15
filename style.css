@@ -1,0 +1,15 @@
+.headshot {
+  height: 300px;
+  border-radius: 50px;
+  border: 1px grey solid;
+}
+
+.skill-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.project-screenshot {
+  width: 600px;
+  border: 1px grey solid;
+}
