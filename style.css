@@ -1,15 +1,61 @@
+body {
+  background-color: #207AB1;
+  font-family: 'Carter One', cursive;
+  color: white;
+}
+
+#bio a:link {
+  color: silver;
+  text-decoration: underline;
+}
+
+header, #bio, #skills, #project, #contact {
+  text-shadow: black -0.5px -0.5px 0.5px;
+}
+
+#bio p {
+  font-size: 15px;
+}
+
+header {
+  margin-top: 60px;
+}
+
 .headshot {
   height: 300px;
-  border-radius: 50px;
+  border-radius: 100%;
   border: 1px grey solid;
 }
 
 .skill-logo {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+#skills h2 {
+  padding: 0.5em;
 }
 
 .project-screenshot {
   width: 600px;
   border: 1px grey solid;
+}
+
+h1, h2 {
+  text-shadow: black -2px -2px 2px;
+}
+
+.bio-intro {
+  font-size: 1.25em;
+}
+
+#contact {
+  margin-bottom: 60px;
+}
+
+#contact h3 {
+  padding: 0.5em;
 }

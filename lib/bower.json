@@ -1,0 +1,21 @@
+{
+  "name": "lib",
+  "homepage": "https://github.com/chiozzo/portfolio",
+  "authors": [
+    "Martin Cross <mncross@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4"
+  }
+}
